@@ -1,5 +1,5 @@
 # Meteor Acccounts Wechat
-#### Wechat account login for meteor
+#### Wechat account login for meteor. This package fixed the popup window size issue for the bayes' one.
 
 ##Install
 
