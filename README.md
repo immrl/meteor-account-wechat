@@ -13,13 +13,13 @@ and also add following package as pre-req -
 
 
 ##Setup and Usage
-1. Register your app with Wechat Developer Site at following url- http://dev.wechat.com/
+1. Register your app with Wechat Developer Site at following url- https://open.weixin.qq.com
 
 2. Fill out the given form but make sure that redirect url as shown as follows-
 
-  OAuth redirect_uri:`<your-server-domain>:<port>/_oauth/wechat`
+  OAuth redirect_uri:`<your-server-domain>:<port>`
 
-  For e.g.redirect url for localhost : `http://localhost:3000/_oauth/wechat`
+  For e.g.redirect url for localhost : `http://localhost:3000`
 
 3. After registration, note down the AppId and AppSecret.
 4. Now in your app do create the `accounts.js` (or `acoounts.coffee` if you use coffeescript) and put following code inside
