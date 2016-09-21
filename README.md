@@ -19,7 +19,7 @@ and also add following package as pre-req -
 
   OAuth redirect_uri:`<your-server-domain>:<port>`
 
-  For e.g.redirect url for localhost : `http://localhost:3000`
+  Redirect url for localhost : `http://localhost:3000`
 
 3. After registration, note down the AppId and AppSecret.
 4. Now in your app do create the `accounts.js` (or `acoounts.coffee` if you use coffeescript) and put following code inside
